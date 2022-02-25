@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+* {
+  font-family: "Lexend", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #111111;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin: .5rem
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 12vh;
+  background-color: #111111;
+  font-family: "Lexend", sans-serif;
+  box-shadow: 0 0 15px goldenrod;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  margin-bottom: 50px;
+  color: rgb(226, 226, 226);
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-links li {
+  list-style: none;
+  transition: all 0.3s ease 0s;
+}
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 12px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: goldenrod;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.aboutuscontainer,
+.abs {
+  color: whitesmoke;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
+}
+.title1 {
+  font-size: 50px;
+}
+.firstline {
+  width: 230px;
+  margin: auto;
+  box-shadow: 0 0 15px goldenrod;
+  background-color: goldenrod;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+h3 {
+  font-size: 50px;
+}
+.whyus {
+  text-align: center;
+  color: whitesmoke;
+}
+.ufj {
+  font-size: 25px;
+  text-align: center;
+}
+
+.secondline {
+  width: 190px;
+  margin: auto;
+  box-shadow: 0 0 15px goldenrod;
+  background-color: goldenrod;
+}
+
+.bc {
+  font-size: 25px;
+  text-align: center;
+}
+.de {
+  font-size: 25px;
+}
+
+.visionmission {
+  text-align: center;
+  color: whitesmoke;
+}
+h5 {
+  font-size: 50px;
+}
+.thirdline {
+  background-color: goldenrod;
+  width: 200px;
+  margin: auto;
+  box-shadow: 0 0 15px goldenrod;
+}
+
+.forthline {
+  background-color: goldenrod;
+  width: 155px;
+  margin: auto;
+  box-shadow: 0 0 15px goldenrod;
+}
+.pmission {
+  font-size: 25px;
+  text-align: center;
+}
+
+.pvision {
+  font-size: 25px;
+  text-align: center;
+}
+.letters a {
+  display: flex;
+  text-decoration: none;
+  box-shadow: 0 0 15px goldenrod;
+  border-radius: 10px;
+  padding: .5rem;
+  background-color: #1a1a1a;
+  position: relative;
+  bottom: 10vh;
+  font-size: 2rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 100%;
+  }
+
+  .day,
+  .hour,
+  .minute,
+  .second {
+    font-size: 2.1em;
+  }
+
+  .container {
+    flex-direction: column;
+    top: 20vh;
+  }
+  .main {
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 88vh;
+    top: 12vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+
+  .day,
+  .hour,
+  .minute,
+  .second {
+    font-size: 1.5em;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  .main {
+    padding: 2em;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+

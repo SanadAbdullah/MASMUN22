@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+* {
+  color: rgb(226, 226, 226);
+  font-family: 'Lexend', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin: .5rem
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 12vh;
+  background-color: #111111;
+  font-family: 'Lexend', sans-serif;
+  box-shadow: 0 0 15px goldenrod;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-links li {
+  list-style: none;
+  transition: all 0.3s ease 0s;
+}
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 12px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: goldenrod;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+.topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  position: relative;
+  top: 20vh;
+  width: 100%;
+
+}
+
+.read {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.read2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.firstline {
+  position: relative;
+  bottom: 2vh;
+  right: .5vw;
+  width: 50vw;
+  box-shadow: 0 0 15px goldenrod;
+  background-color: goldenrod;
+}
+.firstline2 {
+  position: relative;
+  bottom: 2vh;
+  left: .6vw;
+  width: 34vw;
+  box-shadow: 0 0 15px goldenrod;
+  background-color: goldenrod;
+
+}
+.secondline {
+  width: 850px;
+  box-shadow: 0 0 15px goldenrod;
+  background-color: goldenrod;
+}
+.title1 {
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+.title2 {
+  font-size: 2rem;
+  display: flex;
+  position: relative;
+  left: 2%;
+}
+.coming-soon {
+  position: relative;
+  top: 12rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  position: relative;
+  top: 2vh;
+  left: 6.8rem;
+}
+.date2 {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: flex;
+  position: relative;
+  top: 2vh;
+  left:  6.5rem;
+
+}
+.might {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  right: 2vw;
+}
+.might2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  right: 2vw;
+  
+}
+
+.para {
+  background-color: #1a1a1a;
+  color: rgb(226, 226, 226);
+  margin: 1vw;
+  width: 50%;
+  box-shadow: 0 0 5px goldenrod;
+  padding: 1.5vw;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+}
+
+@media screen and (max-width:1024px) {
+  .nav-links {
+    width: 100%;
+  }
+  h2 {
+    font-size:4rem;
+  }
+  .day,.hour,.minute,.second {
+    font-size: 2.1em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .firstline2 {
+    position: relative;
+    bottom: 2vh;
+    left: 2.8vw;
+    width: 80vw;
+    box-shadow: 0 0 15px goldenrod;
+    background-color: goldenrod;
+  }
+  .might {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    right: 5%;
+  }
+  .might2 {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    right: 5%;
+  }
+  .firstline {
+    position: relative;
+    bottom: 2vh;
+    left: 2.8vw;
+    width: 340px;
+    box-shadow: 0 0 15px goldenrod;
+    background-color: goldenrod;
+  }
+  .para {
+    width: 80%;
+    padding: 3vw;
+
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 88vh;
+    top: 12vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  .day,.hour,.minute,.second {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .title1 {
+    font-size: 1.4rem;
+  }
+  .title2 {
+    font-size: 1.4rem;
+  }
+  .might {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    right: 10%;
+  }
+  .might2 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    right: 5%;
+  }
+  .firstline {
+    position: relative;
+    bottom: 2vh;
+    left: 0.5vw;
+    width: 340px;
+    box-shadow: 0 0 15px goldenrod;
+    background-color: goldenrod;
+  }
+  .firstline2 {
+    position: relative;
+    bottom: 2vh;
+    left: 0.5vw;
+    width: 340px;
+    box-shadow: 0 0 15px goldenrod;
+    background-color: goldenrod;
+  }
+  .date {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: relative;
+    top: 2vh;
+    left: 6.2rem;
+  }
+  .date2 {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: relative;
+    top: 2vh;
+    left: 5rem;
+  }
+
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
