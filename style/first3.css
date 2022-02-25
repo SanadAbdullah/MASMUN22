@@ -118,7 +118,9 @@ h2 {
   width: 1000px;
   box-shadow: 0 0 15px goldenrod;
   background-color: goldenrod;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  bottom: 2rem;
 }
 .title1 {
   font-size: 2rem;

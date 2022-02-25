@@ -119,6 +119,9 @@ h2 {
   width: 900px;
   box-shadow: 0 0 15px goldenrod;
   background-color: goldenrod;
+  margin-bottom: 3rem;
+  position: relative;
+  bottom: 2rem;
 }
 .title1 {
   font-size: 2rem;
@@ -217,7 +220,7 @@ h2 {
   .firstline2 {
     position: relative;
     bottom: 2vh;
-    width: 20vw;
+    width: 10vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
   }
@@ -237,14 +240,20 @@ h2 {
     position: relative;
     bottom: 2vh;
     left: 2.8vw;
-    width: 340px;
+    width: 30vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
+  }
+  .secondline {
+    width: 60vw;
+    margin-bottom: 0;
   }
   .para {
     width: 80%;
     padding: 3vw;
-
+  }
+  .comingh2 h2 {
+    font-size: 3rem;
   }
 }
 
@@ -310,8 +319,8 @@ h2 {
   .firstline {
     position: relative;
     bottom: 2vh;
-    left: 0.5vw;
-    width: 340px;
+    left: 3vw;
+    width: 40vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
   }
@@ -329,7 +338,7 @@ h2 {
     letter-spacing: 2px;
     position: relative;
     top: 2vh;
-    left: 6.2rem;
+    left: 6.6rem;
   }
   .date2 {
     font-size: 12px;
@@ -339,7 +348,9 @@ h2 {
     top: 2vh;
     left: 5rem;
   }
-
+  .comingh2 h2{
+    font-size: 1.7rem;
+  }
 }
 
 .nav-active{
