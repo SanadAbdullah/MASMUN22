@@ -103,33 +103,33 @@ h2 {
   position: relative;
   bottom: 2vh;
   right: .5vw;
-  width: 50vw;
+  width: 30vw;
   box-shadow: 0 0 15px goldenrod;
   background-color: goldenrod;
 }
 .firstline2 {
   position: relative;
   bottom: 2vh;
-  margin-right: 2rem;
-  width: 31vw;
+  width: 21vw;
   box-shadow: 0 0 15px goldenrod;
   background-color: goldenrod;
 
 }
 .secondline {
-  width: 850px;
   box-shadow: 0 0 15px goldenrod;
   background-color: goldenrod;
   margin-bottom: 3rem;
   position: relative;
   bottom: 2rem;
-  width: 85vw;
+  width: 45vw;
 }
 .title1 {
   font-size: 2rem;
   display: flex;
   text-align: center;
   justify-content: center;
+  position: relative;
+  right: 1.8rem;
 
 }
 .title2 {
@@ -149,22 +149,21 @@ h2 {
 
 
 .date {
-  font-size: 12px;
+  font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 2px;
   position: relative;
   top: 2vh;
-  left: 6.8rem;
+  left: 14.8rem;
 }
 .date2 {
-  font-size: 12px;
+  font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 2px;
   display: flex;
   position: relative;
   top: 2vh;
-  left:  6.5rem;
-
+  left: 31.5rem;
 }
 .might {
   display: flex;
@@ -252,6 +251,25 @@ h2 {
     width: 80%;
     padding: 3vw;
 
+
+  }
+  .date {
+    left: 11rem;
+
+  }
+  .date2 {
+    left: 23rem;
+  }
+  .firstline {
+    margin-right: 4.5rem;
+
+  }
+  .secondline {
+    width: 30vw;
+  }
+  .firstline2 {
+    margin-right: 4.5rem;
+    width:25vw;
   }
 }
 
@@ -306,7 +324,6 @@ h2 {
     display: flex;
     width: 100vw;
     position: relative;
-    right: 10%;
   }
   .might2 {
     display: flex;
@@ -317,16 +334,19 @@ h2 {
   .firstline {
     position: relative;
     bottom: 2vh;
-    left: 0.5vw;
-    width: 340px;
+    margin-right: 1.5rem;
+    width: 70vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
+  }
+  .secondline {
+    width: 50vw;
   }
   .firstline2 {
     position: relative;
     bottom: 2vh;
-    left: 0.5vw;
-    width:65vw;
+    margin-right: 1.5rem;
+    width:50vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
   }
@@ -336,7 +356,7 @@ h2 {
     letter-spacing: 2px;
     position: relative;
     top: 2vh;
-    left: 6.2rem;
+    left: 11rem;
   }
   .date2 {
     font-size: 12px;
@@ -344,7 +364,7 @@ h2 {
     letter-spacing: 2px;
     position: relative;
     top: 2vh;
-    left: 5rem;
+    left: 16.2rem;
   }
   .comingh2 h2 {
     font-size: 1.8rem;
