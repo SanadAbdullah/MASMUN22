@@ -118,6 +118,7 @@ h2 {
   width: 1000px;
   box-shadow: 0 0 15px goldenrod;
   background-color: goldenrod;
+  margin-bottom: 2rem;
 }
 .title1 {
   font-size: 2rem;
@@ -288,10 +289,11 @@ h2 {
     width: 100%;
   }
   .title1 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .title2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
+    margin-right: 1.8rem;
   }
   .might {
     display: flex;
@@ -309,7 +311,7 @@ h2 {
     position: relative;
     bottom: 2vh;
     left: 0.5vw;
-    width: 340px;
+    width: 57vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
   }
@@ -317,9 +319,15 @@ h2 {
     position: relative;
     bottom: 2vh;
     left: 0.5vw;
-    width: 340px;
+    width: 70vw;
     box-shadow: 0 0 15px goldenrod;
     background-color: goldenrod;
+  }
+  .secondline {
+    width: 60vw;
+  }
+  .comingh2 h2 {
+    font-size: 1.5em;
   }
   .date {
     font-size: 12px;
