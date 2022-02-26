@@ -41,7 +41,7 @@ nav {
   color: rgb(226, 226, 226);
   text-decoration: none;
   letter-spacing: 3px;
-  font-size: 12px;
+  font-size: 1rem;
   transition: all 0.3s ease 0s;
 }
 
@@ -80,6 +80,7 @@ nav {
   align-items: center;
   padding: 20px;
   font-size: 25px;
+  width: 100%;
 }
 .title1 {
   font-size: 50px;
