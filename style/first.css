@@ -191,6 +191,7 @@ h2 {
 }
 
 .pdflogo{
+  background-color: #1a1a1a;
   width: 100px;
   height: 100px;
   display: flex;
@@ -249,6 +250,7 @@ h2 {
   flex-direction: row;
 }
 .pdflogo1 {
+  background-color: #1a1a1a;
   width: 100px;
   height: 100px;
   display: flex;
