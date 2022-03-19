@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+* {
+  color: rgb(226, 226, 226);
+  font-family: 'Lexend', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin: .5rem
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 12vh;
+  background-color: #111111;
+  font-family: 'Lexend', sans-serif;
+  box-shadow: 0 0 15px goldenrod;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-links li {
+  list-style: none;
+  transition: all 0.3s ease 0s;
+}
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: goldenrod;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+.timeline-section{
+	background-color: #111111;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: rgb(87, 68, 21);
+  box-shadow: 0 0 15px rgb(148, 113, 25);
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #eaa023;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+  box-shadow: 0 0 15px goldenrod;
+
+}
+.timeline-date{
+	font-size: 18px;
+	color: rgb(226, 226, 226);
+	margin:6px 0 15px;
+}
+.timeline-content{
+    background-color: #1a1a1a;
+	padding: 30px;
+	border-radius: 10px;
+  box-shadow: 0 0 15px goldenrod;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+
+.days button,.groups button {
+  margin: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.days {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.groups {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .nav-links {
+    width: 100%;
+  }
+  h2 {
+    font-size:4rem;
+  }
+  .day,.hour,.minute,.second {
+    font-size: 2.1em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 88vh;
+    top: 12vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  .day,.hour,.minute,.second {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+  
+ 
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
