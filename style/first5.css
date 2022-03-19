@@ -218,6 +218,267 @@ h2 {
   position: relative;
   width: 50%;
 }
+.pdflogo{
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #daa520;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.sanad {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.sanad1 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.pdflogo1 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #daa520;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.sanad2 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.pdflogo2 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #daa520;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.sanad3 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.pdflogo3 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #daa520;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.sanad4 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.pdflogo4 {
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #daa520;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.pdflogo:hover{
+  background-color: #C7971E;
+  transition: linear 0.3s;
+}
+.pdflogo1:hover{
+  background-color: #C7971E;
+  transition: linear 0.3s;
+}
+.pdflogo2:hover{
+  background-color: #C7971E;
+  transition: linear 0.3s;
+}
+.pdflogo3:hover{
+  background-color: #C7971E;
+  transition: linear 0.3s;
+}
+.pdflogo4:hover{
+  background-color: #C7971E;
+  transition: linear 0.3s;
+}
+
+#s1 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 1rem;
+}
+#s2 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 12rem;
+}
+
+.head {
+  display: flex;
+}
+.op1 {
+  width: 100%;
+  text-align: center;
+}
+.op2 {
+  width: 100%;
+  text-align: center;
+}
+.op3 {
+  width: 100%;
+  text-align: center;
+}
+.op4 {
+  width: 100%;
+  text-align: center;
+}
+.op5 {
+  width: 100%;
+  text-align: center;
+}
 
 @media screen and (max-width:1024px) {
   .nav-links {
@@ -282,6 +543,85 @@ h2 {
     padding: 3vw;
 
   }
+  .pdflogo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .pdflogo1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  
 }
 
 @media screen and (max-width:768px) {
@@ -401,6 +741,247 @@ h2 {
     top: 2vh;
     left: 5.7rem;
   }
+  .pdflogo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .pdflogo1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .pdflogo2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .pdflogo3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .sanad4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 20rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .pdflogo4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 20rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #daa520;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  .head {
+    flex-direction: column;
+  }
+  .op1 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 4.5em;
+  
+  }
+  .op2 {
+    width: 100%;
+    position: relative;
+
+    top: 21rem;
+    text-align: center;
+  }
+  .op3 {
+    width: 100%;
+    position: relative;
+
+    top: 36rem;
+    text-align: center;
+  }
+  .op4 {
+    width: 100%;
+    top: 50rem;
+    position: relative;
+
+    text-align: center;
+  }
+  .op5 {
+    width: 100%;
+    position: relative;
+    top: 64rem;
+    text-align: center;
+  }
+
 
 }
 
