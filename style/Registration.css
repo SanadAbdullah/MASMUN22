@@ -10,7 +10,6 @@
 body {
   background-color: #111;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 .background-image {
   background-image: url('../images/Re.jpg');
