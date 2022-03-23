@@ -24,7 +24,7 @@ const navslide = () => {
 }
 
 const countdown = () => {
-    const countDate = new Date('March 24, 2022 15:00:00').getTime();
+    const countDate = new Date('March 24, 2022 16:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
